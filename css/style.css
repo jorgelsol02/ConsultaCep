@@ -1,0 +1,32 @@
+/*Global*/
+:root{
+    --blue: #00BFFF;
+    --black: #363636;
+    --yellow: #FFD700;
+}
+
+body{
+    background-color: var(--yellow);
+}
+
+header{
+    color: var(--blue);
+    text-align: center;
+    font-weight: 100;
+    font-size: 2em;
+}
+.consultaCep{
+    font-size: 20px;
+    color: var(--black);
+}
+
+main .consultaCep button{
+    background-color: green;
+    color: aqua;
+}
+
+footer{
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+}

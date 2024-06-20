@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Cep</title>
+    <script src="../js/index.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Consultar endereço</h1>
+    </header>
+
+    <div class="consultaCep">Consulte um endereço</div>
+    <input type="number" id="cep" placeholder="cep da sua busca">
+    <button type="submit" id="consultarCep" onclick="consultarCep()">Buscar</button>
+
+    <div class="consultaCep">
+        <p id="logradouro"><p>
+        <p id="bairro"></p>
+        <p id="cidade"></p>
+        <p id="uf"></p> 
+    </div>
+
+    <br>
+    <footer>Oliveira, Jorge</footer>
+</body>
+</html>
